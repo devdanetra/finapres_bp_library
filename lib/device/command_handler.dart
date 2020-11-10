@@ -21,3 +21,7 @@ enum Command{
   HardwareInfoErase,
   HardwareInfoData,
 }
+
+class CommandHandler{
+
+}
