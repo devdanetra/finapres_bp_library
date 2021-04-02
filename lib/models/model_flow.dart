@@ -33,13 +33,13 @@
 // }
 // class FCF {
 //   final int notChanged = 0;
-//   final int changed = 16;
+//   final int changed = 32;
 // }
 // class Patient {
-//   final int retriesAlreadyPerformed = 0x1e;
-//   final int finalRetryAttempt = 0x1f;
+//   final int dataNotSent = 0;
+//   final int dataSent = 64;
 // }
 // class CalibrationAllowed {
-//   final int retriesAlreadyPerformed = 0x1e;
-//   final int finalRetryAttempt = 0x1f;
+//   final int braCalNotPossible = 0;
+//   final int braCalAllowed = 128;
 // }
