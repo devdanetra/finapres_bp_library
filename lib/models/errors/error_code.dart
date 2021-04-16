@@ -1,4 +1,4 @@
 class ErrorCode {
-  int internal;
+  int internal ; //TODO Implement as model
   int errorCode;
 }

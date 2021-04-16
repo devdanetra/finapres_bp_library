@@ -19,12 +19,12 @@ class Mode extends ByteModel{
 
 class MainMode {
 
-  final int startingUp = 0;
-  final int idle = 16;
-  final int measure = 48;
-  final int service = 64;
-  final int bootLoader = 112;
-  final int error = 240;
+  static final int startingUp = 0;
+  static final int idle = 16;
+  static final int measure = 48;
+  static final int service = 64;
+  static final int bootLoader = 112;
+  static final int error = 240;
 }
 
 

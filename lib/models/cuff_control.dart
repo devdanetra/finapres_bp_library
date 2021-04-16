@@ -18,15 +18,15 @@ class CuffControl extends ByteModel{
 }
 
 class RetryNumber {
-  final int retriesAlreadyPerformed = 0x1e;
-  final int finalRetryAttempt = 0x1f;
+  final int retriesAlreadyPerformed = 240;
+  final int finalRetryAttempt = 248;
 }
 
 class Status {
-  final int cuffControlDisabled = 0;
-  final int cuffControlEnabled = 2;
-  final int cuffControlSuspended = 3;
-  final int cuffControlSuspendedWithSwitch = 4;
+  final int disabled = 0;
+  final int enabled = 2;
+  final int suspended = 3;
+  final int suspendedWithSwitch = 4;
   final int busySwitchingCuff = 5;
   final int switchingFailedInternalError = 6;
   final int switchingFailedError = 7;

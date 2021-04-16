@@ -16,12 +16,12 @@ class Cuff extends ByteModel{
 
 }
 
-class minutesTillSwitch {
+class  MinutesTillSwitch {
 
   final int automaticCuffControlDisabled = 0;
-  final int switchingCuffNow = 0x3e;
+  final int switchingCuffNow = 248;
 }
-class currentCuff {
+class CurrentCuff {
   final int cuff1 = 1;
   final int cuff2 = 2;
 }
