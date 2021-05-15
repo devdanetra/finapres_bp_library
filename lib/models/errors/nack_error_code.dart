@@ -1,5 +1,4 @@
 class NackError {
-
   final int bootLoaderOutOfOrderPacket = 0x01;
   final int bootLoaderFlashNotStarted = 0x02;
   final int messageNotAllowed = 0x07;
